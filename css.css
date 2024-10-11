@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(255, 125, 147);
+}
+
+h1{
+    background-color: rgb(247, 90, 117);
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.vsechno {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+p{
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    font-size: xx-large;
+}
+
+.img {
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 100px rgb(165, 40, 61);
+    transition: .2s;
+}
+
+.img:hover{
+    transform: scale(1.1);
+}
